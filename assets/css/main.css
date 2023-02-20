@@ -8,7 +8,7 @@
 */
 
 html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+iframe, h1, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -24,6 +24,8 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+
+h2 { text-align: center; }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -3165,7 +3167,10 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
+		margin-left: auto;
+		margin-right: auto;
 		padding: 5em 0 6em 0 ;
+		text-align: center;
 		background-color: #f6f6f6;
 	}
 
@@ -3182,20 +3187,24 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
+			text-align: center;
 		}
 
 			#footer > .inner > * > :last-child {
 				margin-bottom: 0;
+				text-align: center;
 			}
 
 			#footer > .inner section:nth-child(1) {
 				width: calc(66% - 2.5em);
 				margin-right: 2.5em;
+				text-align: center;
 			}
 
 			#footer > .inner section:nth-child(2) {
 				width: calc(33% - 2.5em);
 				margin-left: 2.5em;
+				text-align: center;
 			}
 
 			#footer > .inner .copyright {
@@ -3205,10 +3214,12 @@ input, select, textarea {
 				list-style: none;
 				font-size: 0.8em;
 				color: rgba(88, 88, 88, 0.5);
+				text-align: center;
 			}
 
 				#footer > .inner .copyright a {
 					color: inherit;
+					text-align: center;
 				}
 
 				#footer > .inner .copyright li {
@@ -3217,12 +3228,14 @@ input, select, textarea {
 					line-height: 1;
 					padding: 0 0 0 1em;
 					margin: 0 0 0 1em;
+					text-align: center;
 				}
 
 					#footer > .inner .copyright li:first-child {
 						border-left: 0;
 						padding-left: 0;
 						margin-left: 0;
+						text-align: center;
 					}
 
 		@media screen and (max-width: 1280px) {
